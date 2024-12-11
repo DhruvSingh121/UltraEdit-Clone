@@ -1,0 +1,154 @@
+:root{
+    --primaryClr : #00b6d1;
+    --colorFont :#EBF2FA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBar{
+    background-color: var(--primaryClr);
+    height: 80px;
+}
+.logo{
+    height: 80px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+img{
+    width: 70px;
+    border-radius: 25%;
+    margin-left: 10px;
+}
+h2{
+    font-size: larger;
+    color: #F4F9E9;
+}
+p{
+    font-size: smaller;
+    color: #EBF2FA;
+}
+.logoTxt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+    padding-left: 65px;
+    color: var(--colorFont);
+    cursor: pointer;
+}
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+.userArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.userArea h1{
+    font-weight: 400;
+    padding: 50px 0px;
+    font-size: 64px;
+    text-align: center;
+}
+
+.userArea h3{
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    
+}
+.download button{
+    text-align: center;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 35px;
+    font-weight: 700px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.boxOut{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+.boxIn{
+    width: 400px;
+    height: 250px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.boxIn h4{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.boxIn p{
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: 200;
+    color: black;
+}
+.hash{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.boxIn button{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
